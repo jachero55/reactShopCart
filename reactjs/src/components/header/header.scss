@@ -1,0 +1,101 @@
+.header-container {
+    background-color: #000;
+
+    .navbar {
+        .logo a {
+            color: #F1D302;
+            font-family: 'Barlow', sans-serif;
+            font-weight: 500;
+        }
+
+        .nav-list a {
+            color: #fff;
+
+            &:hover {
+                color: #F1D302;
+                transition: .3s ease-in-out;
+            }
+        }
+
+        .cart-icon-container .bag-btn {
+            color: #F1D302;
+            cursor: pointer;
+            background: transparent;
+            outline: none;
+            border: none;
+
+            &:hover {
+                color: #fff;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+}
+
+@media(min-width: 600px) {
+    .header-container {
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 10rem;
+            width: 100%;
+
+            .logo a {
+                font-size: 2.8rem;
+            }
+
+            .cart-icon-container .bag-btn {
+                font-size: 2rem;
+            }
+        }
+
+        .nav-items {
+            .nav-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    font-size: 1.8rem;
+                    padding-left: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .header-container {
+        width: 100%;
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 20rem;
+            width: 100%;
+
+            .logo a {
+                font-size: 3.5rem;
+            }
+
+            .cart-icon-container .bag-btn {
+                font-size: 2.3rem;
+            }
+        }
+
+        .nav-items {
+            .nav-list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    font-size: 2rem;
+                    padding-left: 2rem;
+                }
+            }
+        }
+    }
+}

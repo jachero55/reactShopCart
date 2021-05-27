@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Odibee+Sans&family=Oswald:wght@300&family=Roboto:wght@100&family=ZCOOL+KuaiLe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #FDFDFD;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// font-family: 'Barlow', sans-serif;
+// font-family: 'Odibee Sans', cursive;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Roboto', sans-serif;
