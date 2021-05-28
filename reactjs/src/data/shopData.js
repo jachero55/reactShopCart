@@ -97,6 +97,20 @@ const ShopData = [
         imageUrl: 'https://images.pexels.com/photos/1543800/pexels-photo-1543800.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
+    {
+        id: '0dtc0e5dp-98a2-4988-kfdd-565c3ea30667',
+        title: 'One Bedroom',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        imageUrl: 'https://images.pexels.com/photos/977876/pexels-photo-977876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        price: 800,
+    },
+    {
+        id: '0ddc0e5dp-98a2-4988-kfdd-565c3ka30667',
+        title: 'One Bedroom',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        imageUrl: 'https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        price: 800,
+    },
 ]
 
 export default ShopData;

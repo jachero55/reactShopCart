@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import CartIcon from '../cart-icon/CartIcon';
 import './header.scss';
@@ -13,13 +13,13 @@ const Header = () => {
                 <button class="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
                     {isMobile ? <FaTimes /> : <FaBars />}
                 </button>
-                <div className="logo"><Link to="/">Lily's<span className="logo-span">Store</span></Link></div>
+                <div className="logo"><NavLink to="/">Lily's<span className="logo-span">Store</span></NavLink></div>
                 <div className="nav-items">
                     <ul className={isMobile ? "nav-links-mobile active" : "nav-links"} onClick={() => setIsMobile(false)}>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/shop">Shop</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+                        <li><NavLink to="/shop" activeClassName="active">Shop</NavLink></li>
+                        <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+                        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
                     </ul>
                 </div>
                 <CartIcon />
