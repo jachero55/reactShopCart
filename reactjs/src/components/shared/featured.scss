@@ -1,0 +1,21 @@
+.featured-product {
+    border: 1px solid #ccc;
+    padding: 2rem;
+
+    .product-details {
+        h3 {
+            font-size: 2rem;
+            padding-top: 1.5rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        .addToCartBtn {
+            background-color: #000000;
+            padding: 1.3rem 3rem;
+            color: #fff;
+        }
+    }
+}

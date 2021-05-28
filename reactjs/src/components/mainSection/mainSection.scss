@@ -1,0 +1,41 @@
+@media(min-width: 600px) {
+    .main-section-container {
+        margin-top: 6rem;
+        padding: 4rem;
+        background-color: #513C2C;
+
+        .main-section-middle {
+            margin: 0 20rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .main-image {
+                flex-basis: 35%;
+                margin-right: 3rem;
+            }
+
+            .main-description {
+                flex-basis: 35%;
+
+                h2 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 2rem;
+                    color: #fff;
+                }
+
+                .coffee-btn {
+                    padding: 1.5rem 4rem;
+                    font-size: 1.5rem;
+                    background-color: #000000;
+                    color: #ffffff;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}

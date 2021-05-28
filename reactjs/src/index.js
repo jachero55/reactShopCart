@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import ProductContextProvider from './context/product';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <ProductContextProvider>
+      <App />
+    </ProductContextProvider>
   </BrowserRouter>,
   document.getElementById('root')
 );

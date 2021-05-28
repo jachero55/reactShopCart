@@ -1,32 +1,60 @@
 .header-container {
-    background-color: #000;
+    background-color: #513C2C;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
 
     .navbar {
         .logo a {
-            color: #F1D302;
+            color: #000;
             font-family: 'Barlow', sans-serif;
             font-weight: 500;
+            font-size: 2rem;
         }
 
-        .nav-list a {
+        .logo-span {
             color: #fff;
-
-            &:hover {
-                color: #F1D302;
-                transition: .3s ease-in-out;
-            }
         }
 
-        .cart-icon-container .bag-btn {
-            color: #F1D302;
-            cursor: pointer;
-            background: transparent;
-            outline: none;
+        .mobile-menu-icon {
+            display: block;
+            position: absolute;
+            font-size: 2rem;
+            color: #fff;
             border: none;
+            outline: none;
+            left: 25px;
+            background: transparent;
+        }
 
-            &:hover {
-                color: #fff;
-                transition: .3s ease-in-out;
+        .nav-items {
+            .nav-links {
+                // transform: translateX(1000px);
+            }
+
+            .nav-links-mobile {
+                position: absolute;
+                display: block;
+                list-style: none;
+                background-color: #000;
+                left: 0;
+                top: 40px;
+                transition: transform 0.5s ease-in-out;
+                width: 100%;
+                opacity: 0.95;
+                padding: 1rem 0;
+                text-align: center;
+            }
+
+            li {
+                a {
+                    text-align: center;
+                    width: 100%;
+                    transition: all ease;
+                    text-decoration: none;
+                    font-size: 2.3rem;
+                    color: #F7FFF7;
+                }
             }
         }
     }
@@ -48,13 +76,18 @@
             .cart-icon-container .bag-btn {
                 font-size: 2rem;
             }
+
+            .mobile-menu-icon {
+                display: none;
+            }
         }
 
         .nav-items {
-            .nav-list {
+            .nav-links {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transform: translateX(0);
 
                 li {
                     font-size: 1.8rem;
@@ -73,27 +106,24 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.5rem 20rem;
+            padding: 1.5rem 15rem;
             width: 100%;
 
             .logo a {
                 font-size: 3.5rem;
             }
-
-            .cart-icon-container .bag-btn {
-                font-size: 2.3rem;
-            }
         }
 
         .nav-items {
-            .nav-list {
+            .nav-links {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                transform: translateX(0);
 
                 li {
                     font-size: 2rem;
-                    padding-left: 2rem;
+                    // padding-left: 1.3rem;
                 }
             }
         }

@@ -2,7 +2,7 @@
     text-align: center;
 
     h1 {
-        color: #F1D302;
+        color: #fff;
         font-size: 2.3rem;
     }
 
@@ -33,14 +33,15 @@
     @media(min-width: 600px) {
         h1 {
             font-size: 3rem;
-            line-height: 4.3rem;
+            line-height: 5rem;
             font-weight: 700;
             letter-spacing: .5rem;
+            margin-bottom: 1rem;
         }
 
         h2 {
             font-size: 2.3rem;
-            line-height: 4rem;
+            line-height: 5rem;
         }
 
         .shop-now-btn {
@@ -53,8 +54,7 @@
     @media(min-width: 992px) {
         h1 {
             font-size: 5rem;
-            color: #F1D302;
-            line-height: 4.7rem;
+            line-height: 5rem;
             font-weight: 700;
             letter-spacing: .5rem;
         }
@@ -62,7 +62,7 @@
         h2 {
             font-size: 3rem;
             color: #FBF5F3;
-            line-height: 4.5rem;
+            line-height: 5rem;
         }
 
         .shop-now-btn {

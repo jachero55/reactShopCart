@@ -1,10 +1,15 @@
-import './App.scss';
+import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import './App.scss';
+import Shop from './pages/Shop';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Home />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/shop" component={Shop} />
+      </Switch>
     </div>
   );
 }
