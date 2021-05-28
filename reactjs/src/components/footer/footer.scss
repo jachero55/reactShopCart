@@ -1,0 +1,58 @@
+.main-footer {
+    background-color: #EAEAEA;
+    padding: 2rem 0 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+.row div {
+    text-align: center;
+}
+
+.row h4 {
+    font-size: 3rem;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #F8F7FF;
+    background-color: #28190E;
+    margin-bottom: 2rem;
+}
+
+.row .map h4 {
+    background-color: #000;
+}
+
+.row .phone h4 {
+    background-color: #513C2C;
+}
+
+.row a {
+    color: #02182B;
+    border-bottom: 1px solid #513C2C;
+    font-size: 1.7rem;
+}
+
+.container {
+    margin: 0 30rem;
+}
+
+.secondaryFooter p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #513C2C;
+}

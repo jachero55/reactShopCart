@@ -2,6 +2,10 @@
     border: 1px solid #ccc;
     padding: 2rem;
 
+    .featured-image {
+        cursor: pointer;
+    }
+
     .product-details {
         h3 {
             font-size: 2rem;
