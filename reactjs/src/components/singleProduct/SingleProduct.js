@@ -5,6 +5,7 @@ import { CartContext } from '../../context/cart-context';
 import { isInCart } from '../../helpers';
 import Layout from '../../components/shared/Layout';
 import './singleProject.scss';
+import Related from '../related/Related';
 
 const SingleProduct = ({ match, history: { push } }) => {
     const { products } = useContext(ProductsContext);
@@ -53,6 +54,7 @@ const SingleProduct = ({ match, history: { push } }) => {
                     </div>
                 </div>
             </div>
+            <Related />
         </Layout>
     )
 }

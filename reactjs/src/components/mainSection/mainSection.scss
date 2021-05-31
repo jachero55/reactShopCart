@@ -2,30 +2,20 @@
     .main-section-container {
         margin-top: 6rem;
         padding: 4rem;
-        background-color: #333;
+        background-color: #513C2C;
 
         .main-section-middle {
             margin: 0 20rem;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            background-color: #000000;
-
-            .main-image {
-                flex-basis: 35%;
-                margin-right: 3rem;
-
-                img {
-                    border-radius: .3rem;
-                }
-            }
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            border: 1px solid #ccc;
 
             .main-description {
-                flex-basis: 35%;
+                padding: 2.5rem;
 
                 h2 {
                     font-size: 3rem;
+                    color: #fff;
                 }
 
                 p {

@@ -5,54 +5,62 @@
     bottom: 0;
     width: 100%;
     margin-top: 5rem;
-}
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 4rem;
-}
+    .container {
+        margin: 0 2rem;
 
-.row div {
-    text-align: center;
-}
+        @media(min-width: 600px) {
+            margin: 0 5rem;
+        }
+    }
 
-.row h4 {
-    font-size: 3rem;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    color: #F8F7FF;
-    background-color: #28190E;
-    margin-bottom: 2rem;
-}
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 4rem;
 
-.row .map h4 {
-    background-color: #000;
-}
+        @media(min-width: 600px) {
+            flex-direction: column;
+        }
 
-.row .phone h4 {
-    background-color: #513C2C;
-}
+        div {
+            text-align: center;
+        }
 
-.row a {
-    color: #02182B;
-    border-bottom: 1px solid #513C2C;
-    font-size: 1.7rem;
-}
+        h4 {
+            font-size: 3rem;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            color: #F8F7FF;
+            background-color: #28190E;
+            margin-bottom: 2rem;
+        }
 
-.container {
-    margin: 0 30rem;
-}
+        .map h4 {
+            background-color: #000;
+        }
 
-.secondaryFooter p {
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
-    color: #513C2C;
+        .phone h4 {
+            background-color: #513C2C;
+        }
+
+        a {
+            color: #02182B;
+            border-bottom: 1px solid #513C2C;
+            font-size: 1.7rem;
+        }
+    }
+
+    .secondaryFooter p {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #513C2C;
+    }
 }
