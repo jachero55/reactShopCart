@@ -1,12 +1,13 @@
 .cart-icon-container {
     position: relative;
 
-    .bag-btn {
-        color: #F1D302;
+    .bag-btns {
+        color: #FEFFBE;
         cursor: pointer;
         background: transparent;
         outline: none;
         border: none;
+        font-size: 2rem;
 
         &:hover {
             color: #fff;
@@ -16,8 +17,8 @@
 
     .item-count {
         position: absolute;
-        color: #000;
-        background-color: #ffffff;
+        color: #fff;
+        background-color: #000;
         border-radius: 50%;
         height: 20px;
         width: 20px;
@@ -31,8 +32,8 @@
 
 @media(min-width: 600px) {
     .cart-icon-container {
-        .bag-btn {
-            font-size: 2rem;
+        .bag-btns {
+            font-size: 2.5rem;
         }
 
         .item-count {
@@ -45,8 +46,8 @@
 
 @media(min-width: 992px) {
     .cart-icon-container {
-        .bag-btn {
-            font-size: 2.5rem;
+        .bag-btns {
+            font-size: 2.8rem;
         }
     }
 

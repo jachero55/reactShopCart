@@ -3,7 +3,7 @@ const ShopData = [
         id: '0cc0e5da-96a2-4988-bfdd-562c3ea32661',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/849646/pexels-photo-849646.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/4023252/pexels-photo-4023252.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {
@@ -17,7 +17,7 @@ const ShopData = [
         id: '12cc0e5da-96a2-4988-bfdd-562c3ea32661',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/4055104/pexels-photo-4055104.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {
@@ -31,7 +31,7 @@ const ShopData = [
         id: '9cc0e5da-96a2-4988-bfdd-562c3ea32661',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/2156698/pexels-photo-2156698.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/267308/pexels-photo-267308.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {
@@ -45,7 +45,7 @@ const ShopData = [
         id: '0c60e5da-96a2-4988-bfdd-562c3ea32661',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/1729808/pexels-photo-1729808.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/4055115/pexels-photo-4055115.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {
@@ -94,14 +94,14 @@ const ShopData = [
         id: '0ddc0e5dp-98a2-4988-kfdd-565c3ea30667',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/1543800/pexels-photo-1543800.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {
         id: '0dtc0e5dp-98a2-4988-kfdd-565c3ea30667',
         title: 'One Bedroom',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        imageUrl: 'https://images.pexels.com/photos/977876/pexels-photo-977876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+        imageUrl: 'https://images.pexels.com/photos/669735/pexels-photo-669735.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
         price: 800,
     },
     {

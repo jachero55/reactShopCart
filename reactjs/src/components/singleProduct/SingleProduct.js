@@ -1,11 +1,14 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import { ProductsContext } from '../../context/product';
+import { CartContext } from '../../context/cart-context';
+import { isInCart } from '../../helpers';
 import Layout from '../../components/shared/Layout';
 import './singleProject.scss';
 
 const SingleProduct = ({ match, history: { push } }) => {
     const { products } = useContext(ProductsContext);
+    const { addProduct, cartItems, increase } = useContext(CartContext);
     const { id } = match.params;
     const [product, setProduct] = useState(null);
     useEffect(() => {
@@ -24,6 +27,7 @@ const SingleProduct = ({ match, history: { push } }) => {
 
     //pull out the product details
     const { imageUrl, title, price, description } = product;
+    const itemInCart = isInCart(product, cartItems)
     return (
         <Layout>
             <div className="single-product-container">
@@ -39,7 +43,12 @@ const SingleProduct = ({ match, history: { push } }) => {
                         <p>{description}</p>
                     </div>
                     <div className="cartButtons">
-                        <button className="addToCartBtn">ADD TO CART</button>
+                        {!itemInCart &&
+                            <button className="addToCartBtn" onClick={() => addProduct(product)}>ORDER</button>
+                        }
+                        {itemInCart &&
+                            <button className="addToCartBtn" onClick={() => increase(product)}>ORDER MORE</button>
+                        }
                         <button className="checkoutBtn">PROCEED TO CHECKOUT</button>
                     </div>
                 </div>

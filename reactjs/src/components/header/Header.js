@@ -10,10 +10,10 @@ const Header = () => {
     return (
         <div className="header-container">
             <nav className="navbar">
-                <button class="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
+                <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
                     {isMobile ? <FaTimes /> : <FaBars />}
                 </button>
-                <div className="logo"><NavLink to="/">Lily's<span className="logo-span">Store</span></NavLink></div>
+                <div className="logo"><NavLink to="/">Lily's<span className="logo-span">Pastries</span></NavLink></div>
                 <div className="nav-items">
                     <ul className={isMobile ? "nav-links-mobile active" : "nav-links"} onClick={() => setIsMobile(false)}>
                         <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>

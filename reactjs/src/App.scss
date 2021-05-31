@@ -34,6 +34,11 @@ img {
 p {
     color: #555555;
     line-height: 3rem;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #513C2C;
 }
 
 button {
@@ -42,6 +47,47 @@ button {
     border-radius: .5rem;
     cursor: pointer;
 }
+
+.not-found-container {
+    a {
+        font-size: 2.3rem;
+        color: #fff;
+        margin-top: 2rem;
+        display: block;
+        background-color: #513C2C;
+        text-align: center;
+        padding: 1.5rem 0;
+        font-weight: 800;
+        border-radius: .3rem;
+
+        &:hover {
+            background-color: #FDFDFD;
+            color: #000;
+            transition: .3s ease-in;
+        }
+    }
+}
+
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .load-more {
+        background-color: #513C2C;
+        padding: 1rem 3rem;
+        color: #fff;
+        display: block;
+        margin-top: 2rem;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+            transition: .3s ease-in;
+        }
+    }
+}
+
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -71,6 +117,98 @@ a {
     }
 }
 
+.cart-title {
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.empty-cart {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cart-title,
+.empty-cart {
+    text-align: center;
+}
+
+.about-details {
+    margin: 0 2rem;
+
+    .about-content {
+        margin: 0 auto;
+        padding-top: 3rem;
+    }
+}
+
+
+/* .contact-section {
+  display: flex;
+} */
+.contact-container {
+    margin: 5rem 2rem 0 2rem;
+
+    .contact-form {
+        background-color: #EAEAEA;
+        padding: 2rem 3rem;
+        border-radius: .5rem;
+        margin: auto;
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 1.3rem;
+            outline: none;
+            margin: 1rem 0 2rem 0;
+            border: 1px solid #ccc;
+            line-height: 2.3rem;
+            font-size: 1.6rem;
+            color: #555555;
+        }
+
+        textarea {
+            padding: 2.5rem;
+        }
+
+    }
+}
+
+.form-group label {
+    font-size: 2rem;
+    margin-top: 3rem;
+
+    span {
+        color: #EA3546;
+    }
+}
+
+.spam {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #1B1F3B;
+}
+
+.contact-form form button {
+    padding: 1.5rem 12rem;
+    font-size: 2rem;
+    background-color: #02182B;
+    color: #FDFDFD;
+    border-radius: .3rem;
+    display: block;
+    margin: auto;
+}
+
+// .input-flex {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-gap: 3rem;
+// }
+
+// .input-flex input {
+//     width: 50%;
+// }
+
+
 //Shop page styles
 @media(min-width: 600px) {
     .all-products-container {
@@ -88,6 +226,32 @@ a {
             grid-gap: 2rem;
         }
     }
+
+    .cart-item-container {
+        margin: 0rem 10rem;
+    }
+
+    .load-more-container {
+        .load-more {
+            padding: 1.5rem 5rem;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .about-details {
+        .about-content {
+            margin: 0 auto;
+            padding-top: 3rem;
+        }
+
+    }
+}
+
+.about-title {
+    color: #FEFFBE;
+    font-size: 3rem;
+    font-family: 'Architects Daughter', cursive;
 }
 
 @media(min-width: 992px) {
@@ -97,6 +261,25 @@ a {
         .product-list {
             grid-template-columns: repeat(4, 1fr);
         }
+    }
+
+    .cart-item-container {
+        margin: 0rem 15rem;
+    }
+
+    .about-title {
+        font-size: 5rem;
+    }
+
+    .about-details {
+        margin: 0 15rem;
+
+        .about-content {
+            width: 60%;
+            margin: 0 auto;
+            padding-top: 3rem;
+        }
+
     }
 }
 

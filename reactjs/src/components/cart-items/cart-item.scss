@@ -1,0 +1,20 @@
+@media(min-width: 600px) {
+    .cart-item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 2rem;
+        margin-top: 2rem;
+
+        .product-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-image img {
+            width: 90px;
+        }
+    }
+}
